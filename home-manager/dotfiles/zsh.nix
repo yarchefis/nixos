@@ -10,6 +10,7 @@
       update = "sudo nixos-rebuild switch --flake /home/yardev/nixos/";
       hupdate = "home-manager switch --flake /home/yardev/nixos/";
     };
+   shellInit = "neofetch";
    history.size = 10000;
    history.path = "${config.xdg.dataHome}/zsh/history";
    oh-my-zsh = {
