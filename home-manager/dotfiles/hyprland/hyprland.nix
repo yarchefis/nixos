@@ -17,12 +17,11 @@
       monitor = DVI-D-1, 1920x1080, -1080x-100, 1, transform, 1
 
       $terminal = kitty
-      $fileManager = dolphin
+      $fileManager = thunar
       $menu = wofi
 
       exec-once = waybar
       exec-once = swww init & sleep 0.5
-      exec-once = swww img /home/yardev/Pictures/menhera.jpg
       exec-once = ciadpi -s1 -q1 -Y -Ar -s5 -o25000+s -At -f-1 -r1+s -As -s1 -o1+s -s-1 -An -b+500
       exec-once = tor -f /home/yardev/.torrc
 

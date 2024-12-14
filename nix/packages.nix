@@ -11,6 +11,9 @@
     chromium
     telegram-desktop
     wofi
+    gimp
+    krita
+    xfce.thunar
 
     # Coding stuff
     nodejs
@@ -41,7 +44,7 @@
     # WMs and stuff
     hyprland
     waybar
-    swww
+    hyprpaper
     home-manager
     xdg-desktop-portal-hyprland
 
