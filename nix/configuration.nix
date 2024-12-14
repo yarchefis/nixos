@@ -13,7 +13,7 @@
        systemd-boot.enable = true;
        efi.canTouchEfiVariables = true;
       };
-      kernelParams = [ "video=HDMI-A-1:1920x1080@100" ];
+      kernelParams = [ "video=HDMI-A-1:1920x1080@100" "nvidia_drm.fbdev=1" "nvidia-drm.modeset=1" ];
     };
 
   networking.hostName = "nixos";
