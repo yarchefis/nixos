@@ -36,6 +36,7 @@
     tree
     byedpi
     openssh
+    sshfs
     #zsh-powerlevel10k
 
     # Wayland stuff
