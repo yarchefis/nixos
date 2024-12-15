@@ -14,6 +14,7 @@
     gimp
     krita
     xfce.thunar
+    android-studio
 
     # Coding stuff
     nodejs
@@ -34,6 +35,7 @@
     lshw
     tree
     byedpi
+    openssh
     #zsh-powerlevel10k
 
     # Wayland stuff

@@ -25,6 +25,7 @@
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
+  services.flatpak.enable = true;
 
   users.users.yardev = {
     isNormalUser = true;
@@ -32,6 +33,16 @@
   };
 
 
+
+  programs.nix-ld = {
+    enable = true;
+    libraries = (pkgs.steam-run.args.multiPkgs pkgs) ++ (with pkgs; [
+      xorg.libxkbfile
+    ]);
+  }; 
+
+  programs.java.enable = true;
+  virtualisation.libvirtd.enable = true;
 
 
   system.stateVersion = "24.11";
