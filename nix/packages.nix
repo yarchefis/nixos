@@ -15,10 +15,15 @@
     krita
     xfce.thunar
     android-studio
+    transmission_4
+    arduino-ide
+    gnome-calculator
+    steam
 
     # Coding stuff
     nodejs
-    python313
+    python312
+    python312Packages.pip
     vscode
 
     # CLI utils
@@ -26,6 +31,12 @@
     neofetch
     wget
     git
+    usbutils
+    python312Packages.pyserial
+    esptool
+    mitmproxy
+
+
     #htop
     unzip
     ffmpeg
@@ -64,5 +75,23 @@
     tor
     obfs4
 
-  ];
+    glibc
+    glib
+    gobject-introspection
+    nss
+    dbus
+    atk
+    cups
+    gdk-pixbuf
+    gtk3
+    xorg.libXcomposite
+    xorg.libXdamage
+    xorg.libXrandr
+    rPackages.gbm
+    xkeyboard_config
+    pango
+    cairo
+    alsa-lib
+    steam-run
+    ];
 }

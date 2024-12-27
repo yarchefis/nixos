@@ -18,5 +18,8 @@
     plugins = [ "git" ];
     theme = "terminalparty";
    };
+   initExtra = ''
+      export PATH=$HOME/.npm-global/bin:$PATH
+    '';
   };
 }
