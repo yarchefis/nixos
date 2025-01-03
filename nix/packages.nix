@@ -6,6 +6,8 @@
 
   environment.systemPackages = with pkgs; [
     zsh
+    iptables
+    ipset
 
     # Desktop apps
     chromium
@@ -15,10 +17,14 @@
     krita
     xfce.thunar
     android-studio
-    transmission_4
+    qbittorrent
     arduino-ide
     gnome-calculator
     steam
+    prismlauncher
+    gparted
+    onlyoffice-desktopeditors
+    openrgb
 
     # Coding stuff
     nodejs
@@ -29,12 +35,14 @@
     # CLI utils
     kitty
     neofetch
+    uwufetch
     wget
     git
     usbutils
     python312Packages.pyserial
     esptool
     mitmproxy
+    flatpak
 
 
     #htop
@@ -93,5 +101,13 @@
     cairo
     alsa-lib
     steam-run
+
+    #wine
+    (wine.override { wineBuild = "wine64"; })
+    wine64
+    winetricks
+    wineWowPackages.waylandFull
+    #wineWowPackages.unstableFull
+    
     ];
 }

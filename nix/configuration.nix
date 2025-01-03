@@ -27,6 +27,8 @@
 
   services.flatpak.enable = true;
 
+  nixpkgs.config.allowBroken = true;
+
   users.users.yardev = {
     isNormalUser = true;
     extraGroups = [ "wheel" "users" ];
@@ -40,6 +42,8 @@
       xorg.libxkbfile
     ]);
   }; 
+
+
 
   programs.java.enable = true;
   virtualisation.libvirtd.enable = true;
